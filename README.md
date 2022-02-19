@@ -13,4 +13,9 @@ This single repository consists of two main projects and their respective basic 
 4. Select Open with Visual Studio
 5. Click the Start button
 
+***or***
+
+1. Click the green _Code_ button on github
+2. Select Open with Visual Studio
+3. Follow the instructions provided by the IDE
 
