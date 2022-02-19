@@ -5,7 +5,7 @@ using System.Xml;
 
 namespace CurrencyConverterApp
 {
-    class Calculator
+    public class Calculator
     {
         public static string Date { get; set; }
         public static Dictionary<string, double> Rates { get; set; }
@@ -20,17 +20,6 @@ namespace CurrencyConverterApp
             double rate = Rates[currency];
             return value * rate;
         }
-
-/*        private static double GetExchangeRate(string currency)
-        {
-            foreach (KeyValuePair<string, double> entry in Rates)
-            {
-                if (currency == entry.Key)
-                    return entry.Value;
-            }
-
-            return Rates[currency];
-        }*/
 
         private static void ReadDataFile()
         {
