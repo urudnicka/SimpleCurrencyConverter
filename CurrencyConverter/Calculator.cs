@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace CurrencyConverter
 {
-    class Calculator
+    public class Calculator
     {
         public static string Date { get; set; }
         public static Dictionary<string, double> Rates { get; set; }
